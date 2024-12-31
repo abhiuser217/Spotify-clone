@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    font-family:  sans-serif;
+.header{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    align-items: center;
+   
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    padding-left: 20rem;
+    cursor: pointer;
+}
+
+.header nav{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10rem;
+}
+.buttons{
+    padding: 5px 20px;
+    margin-left: 5px;
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+   
+    font-size: 16px;
+    font-weight: 600;
+}
+.buttons:hover{
+    color: rgb(21, 138, 21);
+}
+.section{
+    text-align: center;
+    background-image: url(banner.jpeg);
+    background-size: cover;
+    padding-top:200px ;
+    padding-bottom: 100px;
+    color: #fff;
+
+}
+.section2 nav{
+    padding-bottom: 25px ;
+}
+.sec-txt{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 30px ;
+}
+.sec-subxt{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px ;
+}
+.para{
+    padding: 20px;
+    font-weight: 600;  
+}
+.store-section{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.store-logo{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+
+}
+.logo-st{
+    padding-left: 20px;
+    cursor: pointer;
+}
+.section2{
+    background-image: url(platform_cherries.jpeg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    
+    
+}
+.no-ani-butt{
+    padding: 5px 20px;
+    margin-left: 5px;
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.color-butt{
+    padding: 5px 20px;
+    margin-left: 5px;
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.color-butt:hover{
+    color: rgb(138, 204, 39);
+}
+.sec-txt2{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 100px ;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 55px;
+    justify-content:start;
+    color: #fff;
+
+}
+.nav-foot{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    padding:50px;
+}
+.foot-butt{
+    padding-bottom: 15px;;
+    margin-left: 0px;
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.foot-butt:hover{
+    color: greenyellow;
+}
+
+.logo-foot{
+    padding-left: 100px;
+    margin-left: 150px;
+    padding-top: 20PX;
+}
+
+
+.logo-foot1:hover{
+    background-color: rgb(118, 192, 8);
+}
+.nav-foot h5{
+    padding-bottom: 20px;
+    color: rgba(120,120,120,.8);
+    font-size: 14px;
+    font-weight: 700;
+}
+.foot-social{
+    display:flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+    align-items: start;
+    margin-top: 50px;
+    
+}
+.foot-social img{ 
+ 
+  object-fit:cover;
+  background-color: #fff;
+ 
+  
+  
+}
+.logo-foot1{
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+.loca{
+    display: flex;
+    text-align: left;
+    background-color: black;
+    color: beige;
+    padding-left: 90%;
+    padding-bottom: 10px ;
+}
+.links{
+    display: flex;
+    font-size: 12px;
+    color: rgb(184, 171, 171);
+    background: black;
+    align-items: self-start;
+    text-align:right;
+   padding-bottom: 50px;
+   width: 100%;
+}
+.lnk{
+    padding-right: 10px;
+    margin: 5px;
+    
+}
+.lnk:hover{
+    color: greenyellow;
+}
